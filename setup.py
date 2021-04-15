@@ -7,15 +7,15 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name="python-json-logger",
-    version="2.0.1",
-    url="http://github.com/madzak/python-json-logger",
+    name="chili-python-json-logger",
+    version="2.1.0",
+    url="https://github.com/chilispa/python-json-logger",
     license="BSD",
     description="A python library adding a json log formatter",
     long_description=long_description,
     long_description_content_type='text/markdown',
-    author="Zakaria Zajac",
-    author_email="zak@madzak.com",
+    author="Cosimo Meli",
+    author_email="cosimo.meli@chili.com",
     package_dir={'': 'src'},
     packages=find_packages("src", exclude="tests"),
     # https://packaging.python.org/guides/distributing-packages-using-setuptools/#python-requires
